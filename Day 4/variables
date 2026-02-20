@@ -1,0 +1,28 @@
+// 1 & 2
+let name = "Mythili";
+let age = 20;
+let isStudent = true;
+
+console.log(name, age, isStudent);
+
+// 3 Swap without third variable
+let a = 5;
+let b = 10;
+
+a = a + b;
+b = a - b;
+a = a - b;
+
+console.log("a:", a, "b:", b);
+
+// 4 Output explanation
+let x = 10;
+let y = x;
+y = 20;
+console.log(x); // 10 because y is a copy, not reference
+
+// 5 Using const
+const pi = 3.14;
+const radius = 5;
+const area = pi * radius * radius;
+console.log(area);
