@@ -1,0 +1,107 @@
+:root {
+    --bg: #f5f6fa;
+    --card: #fff;
+    --text: #222;
+    --accent: #4a69bd;
+}
+
+.dark {
+    --bg: #1e1e2f;
+    --card: #2c2c3c;
+    --text: #eee;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: .3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    background: var(--accent);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: var(--card);
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .2s;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-actions button {
+    margin-left: 5px;
+}
+
+.dragging {
+    opacity: .5;
+}
+
+#emptyState {
+    text-align: center;
+    opacity: .6;
+}
+
+.hidden {
+    display: none;
+}
+
+#modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}

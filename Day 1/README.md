@@ -1,219 +1,89 @@
-MERN Stack Learning Journey
+MERN Stack Development – Learning Journey
 
-# I am Mythili A,This repository documents my structured, day-by-day learning journey of the MERN Stack (MongoDB, Express, React, Node.js).
-The goal is not just to “learn concepts” but to build, push, and improve real working code daily.
+15-Day Structured Roadmap (Hands-On)
 
-This repo serves as:
+ # About the Repository
+ I am Mythili A,
 
-Proof of consistency
+This repository documents my learning and practical work during a 15-day MERN Stack development journey.
+The focus is on hands-on implementation, real-world workflows, and daily GitHub commits.
+This journey covers frontend, backend, database, and authentication, ending with a complete MERN project foundation.
 
-Hands-on MERN practice
+# Course Objectives
 
-A reference for my full-stack development fundamentals
 
-No tutorials dumped. Only learn → build → push.
+Understand the fundamentals of full-stack web development
 
-🎯 Objective
+Learn client–server architecture and RESTful APIs
 
-Gain end-to-end understanding of full-stack web development
+Build interactive user interfaces using React
 
-Build strong fundamentals in frontend, backend, and database
+Develop backend services using Node.js & Express
 
-Follow industry-standard workflows (Git, REST APIs, MVC)
+Work with MongoDB for data storage
 
-Prepare for real-world MERN projects & internships
+Integrate frontend and backend into a complete application
 
-🧱 Tech Stack Overview
+Gain experience with Git & GitHub workflow
 
-Frontend
+# Tech Stack Overview
 
-HTML5
+Frontend: HTML, CSS, JavaScript, React.js
 
-CSS3 (Flexbox, Responsive Design)
+Backend: Node.js, Express.js
 
-JavaScript (ES6+)
+Database: MongoDB, Mongoose
 
-React.js (Hooks, Routing)
+Authentication: JWT
 
-Backend
+Tools: Git, GitHub, npm, VS Code, Postman
 
-Node.js
+# 15-Day Course Roadmap (High-Level)
 
-Express.js
+Day 1: Web fundamentals & MERN stack overview
 
-REST APIs
+Day 2: HTML fundamentals (structure, forms, semantic tags)
 
-JWT Authentication
+Day 3: CSS fundamentals (box model, flexbox, responsive design)
 
-Database
+Day 4: JavaScript basics (variables, functions, conditions, loops)
 
-MongoDB
+Day 5: JavaScript DOM manipulation & events
 
-Mongoose ODM
+Day 6: Advanced JavaScript (ES6, promises, async/await)
 
-Tools
+Day 7: React basics (components, JSX, props, project structure)
 
-Git & GitHub
+Day 8: React state & hooks (useState, useEffect)
 
-npm
+Day 9: React routing & component interaction
 
-VS Code
+Day 10: Node.js & Express fundamentals
 
-Postman
+Day 11: REST APIs, routes & middleware
 
-📅 Day-Wise Learning Plan & Progress
-Day 1 – Web & MERN Overview
+Day 12: MongoDB & Mongoose (schemas, CRUD operations)
 
-Web basics
+Day 13: Full MERN integration (frontend + backend connection)
 
-Client–Server architecture
+Day 14: Authentication, error handling & deployment basics
 
-MERN workflow
-📌 GitHub Task: Created repository & README
+Day 15: Final project completion & portfolio preparation
 
-Day 2 – HTML Fundamentals
-
-Structure
-
-Forms
-
-Tables
-
-Semantic tags
-📌 GitHub Task: Pushed basic HTML pages
-
-Day 3 – CSS Fundamentals
-
-Box Model
-
-Flexbox
-
-Responsive design
-📌 GitHub Task: Uploaded styled pages
-
-Day 4 – JavaScript Basics
-
-Variables
-
-Functions
-
-Conditions
-
-Loops
-📌 GitHub Task: JS practice files
-
-Day 5 – JavaScript DOM
-
-DOM manipulation
-
-Events
-
-UI interactivity
-📌 GitHub Task: DOM-based mini tasks
-
-Day 6 – Advanced JavaScript
-
-ES6 features
-
-Promises
-
-Async / Await
-📌 GitHub Task: ES6 examples
-
-Day 7 – React Basics
-
-Components
-
-JSX
-
-Props
-
-Project structure
-📌 GitHub Task: React setup & components
-
-Day 8 – React State & Hooks
-
-useState
-
-useEffect
-
-Event handling
-📌 GitHub Task: Hooks demo
-
-Day 9 – React Routing & Forms
-
-React Router
-
-Controlled inputs
-
-Forms
-📌 GitHub Task: Routing demo
-
-Day 10 – Node.js Basics
-
-Node setup
-
-Modules
-
-npm
-📌 GitHub Task: Node scripts
-
-Day 11 – Express.js
-
-Routing
-
-Middleware
-
-REST APIs
-📌 GitHub Task: Express APIs
-
-Day 12 – MongoDB Basics
-
-Collections
-
-Documents
-
-CRUD operations
-📌 GitHub Task: MongoDB CRUD
-
-Day 13 – Mongoose Integration
-
-Schemas
-
-Models
-
-Relationships
-📌 GitHub Task: Mongoose models
-
-Day 14 – Authentication
-
-Register & Login
-
-JWT basics
-
-Secure APIs
-📌 GitHub Task: Auth module
-
-Day 15 – Project Development (Phase I)
-
-Project setup
-
-UI & API integration
-📌 GitHub Task: Project structure
-
-🏁 Final Outcome
+# Final Outcome
 
 By the end of this journey, I will have:
 
-A clear understanding of full-stack MERN architecture
+Strong fundamentals in MERN Stack development
 
-Hands-on experience building frontend + backend + database
+Practical experience building full-stack applications
 
-Clean GitHub repositories showing real progress
+A structured GitHub repository showing consistent progress
 
-A solid base to build production-level MERN projects
+A solid foundation to build production-level MERN projects
 
-📌 Note
 
-This repository is actively updated.
-Code quality and structure improve day by day as concepts get clearer.
+# Note
+This repository is continuously updated with daily progress and improvements as part of my learning journey.
+
+

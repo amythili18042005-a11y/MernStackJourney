@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Todo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Todo List</h1>
+            <button id="themeToggle">🌙 Dark</button>
+        </header>
+
+        <form id="todoForm">
+            <input id="todoInput" placeholder="Add a task..." autocomplete="off">
+            <button>Add</button>
+        </form>
+
+        <input id="searchInput" placeholder="Search tasks...">
+
+        <ul id="todoList"></ul>
+
+        <p id="emptyState">No tasks yet</p>
+
+        <button id="clearCompleted">Clear Completed</button>
+
+    </div>
+
+    <div id="modalOverlay" class="hidden">
+        <div class="modal">
+            <p>Delete all completed tasks?</p>
+            <button id="confirmClear">Yes</button>
+            <button id="cancelClear">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

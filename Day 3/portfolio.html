@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<header>
+    <h1>Mythili Ayyanar</h1>
+    <p>
+        Hello! I am <b>Mythili</b>, a passionate <i>Computer Science student</i> who loves
+        <u>learning new technologies</u> and building projects.
+        Sometimes I <s>procrastinate</s> but I always finish my work.
+        I believe practice<sup>2</sup> beats theory<sub>always</sub>.
+        My favorite command is <code>git commit</code>.
+    </p>
+</header>
+
+<nav>
+    <h2>Navigation</h2>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <article>
+        <h3>My Goal</h3>
+        <p>
+            My goal is to become a skilled software developer with strong
+            problem-solving abilities and real-world project experience.
+        </p>
+    </article>
+
+    <details>
+        <summary>More About Me</summary>
+        <p>
+            I enjoy working on AI, web development, and cybersecurity projects.
+            I believe consistency is more important than talent.
+        </p>
+    </details>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ol>
+        <li>Java Programming</li>
+        <li>HTML & Web Development</li>
+        <li>Machine Learning Basics</li>
+    </ol>
+
+    <h3>Hobbies</h3>
+    <ul>
+        <li>Problem Solving</li>
+        <li>Reading Tech Blogs</li>
+        <li>Listening to Music</li>
+    </ul>
+
+    <h3>Skill Levels</h3>
+    <label>HTML</label>
+    <progress value="80" max="100">80%</progress><br>
+
+    <label>Java</label>
+    <progress value="70" max="100">70%</progress><br>
+
+    <label>Python</label>
+    <progress value="60" max="100">60%</progress>
+</section>
+
+<section id="academics">
+    <h2>Academic Performance</h2>
+
+    <table border="1">
+        <caption>Semester Marks</caption>
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Data Structures</td>
+            <td>85</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Operating Systems</td>
+            <td>78</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Computer Networks</td>
+            <td>82</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Software Engineering</td>
+            <td>88</td>
+            <td>A+</td>
+        </tr>
+    </table>
+</section>
+
+<section id="media">
+    <h2>Media</h2>
+
+    <figure>
+        <img src="profile.jpg" alt="Profile photo of Mythili" width="200">
+        <figcaption>My Profile Picture</figcaption>
+        Your browser does not support images.
+    </figure>
+
+    <figure>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <figcaption>Favorite Background Music</figcaption>
+    </figure>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label><br>
+
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Interests</legend>
+
+            <label>
+                <input type="checkbox" name="interest" value="coding"> Coding
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="interest" value="ai"> Artificial Intelligence
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="interest" value="web"> Web Development
+            </label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Preference</legend>
+
+            <label for="contact-method">Preferred Contact Method:</label>
+            <select id="contact-method" name="contact-method">
+                <option>Email</option>
+                <option>Phone</option>
+                <option>LinkedIn</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mythili Ayyanar</p>
+</footer>
+
+</body>
+</html>
+s
